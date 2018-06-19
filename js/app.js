@@ -41,8 +41,8 @@ function rangeUpdate(){
 }
 
 function progressUpdate(){
-    const percent = (video.currentTime / video.duration) * 100;
-    barProgressFilled.style.flexBasis = `${percent}%`;
+    const percentage = (video.currentTime / video.duration) * 100;
+    barProgressFilled.style.flexBasis = `${percentage}%`;
 }
 
 function scrub(event){
